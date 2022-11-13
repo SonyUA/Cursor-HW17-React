@@ -11,11 +11,11 @@ const Post = (props) => {
         <article className="card">
             <div className="card__authorFlex">
                 <div className="card__authorBox">
-                    <img className="card__authorImg" src={props.author.photo} alt="" />
-                    <p className="card__authorName">{props.author.name}</p>
+                    <img className="card__authorImg" src={props.photo} alt="" />
+                    <p className="card__authorName">{props.name}</p>
                 </div>
                 <div className="card__contentBox">
-                    <span className="card__contentNik">{props.author.nickname}</span>
+                    <span className="card__contentNik">{props.nickname}</span>
                     <p className="card__contentText">{props.content}</p>
                     <span className="card__contentDate">{props.date}</span>
                 </div>
